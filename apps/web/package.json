@@ -1,0 +1,52 @@
+{
+  "name": "@macroscope/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "0.39.0",
+    "@auth/drizzle-adapter": "1.7.4",
+    "@macroscope/agent": "workspace:*",
+    "@macroscope/db": "workspace:*",
+    "@macroscope/tools": "workspace:*",
+    "@radix-ui/react-dialog": "1.1.2",
+    "@radix-ui/react-label": "2.1.0",
+    "@radix-ui/react-slot": "1.1.0",
+    "@radix-ui/react-toast": "1.2.2",
+    "bullmq": "5.34.5",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "drizzle-orm": "0.36.4",
+    "ioredis": "5.4.2",
+    "lucide-react": "0.469.0",
+    "next": "14.2.18",
+    "next-auth": "5.0.0-beta.25",
+    "papaparse": "5.4.1",
+    "postgres": "3.4.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tailwind-merge": "2.5.5",
+    "yahoo-finance2": "2.13.3",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@types/papaparse": "5.3.15",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "autoprefixer": "10.4.20",
+    "eslint": "8.57.1",
+    "eslint-config-next": "14.2.18",
+    "postcss": "8.4.49",
+    "tailwindcss": "3.4.16",
+    "typescript": "5.6.3",
+    "vitest": "2.1.8"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "_comment": "Curated headline summaries per event. NOT real news clippings — these are short factual summaries written for narrative context in the briefing's 'historical context' section. Used by search_news_archive. Source attribution is the public reference URL from each event row in seed/events.sql.",
+  "items": [
+    {"event_id":"lehman_2008","date":"2008-09-15","source":"public-record","headline":"Lehman Brothers files Chapter 11 — largest US bankruptcy at $613B in liabilities."},
+    {"event_id":"lehman_2008","date":"2008-09-16","source":"public-record","headline":"Reserve Primary Fund 'breaks the buck' as money-market panic spreads."},
+    {"event_id":"lehman_2008","date":"2008-09-17","source":"public-record","headline":"AIG receives $85B Fed loan facility to avert insolvency."},
+
+    {"event_id":"coordinated_cut_2008","date":"2008-10-08","source":"federalreserve.gov","headline":"Fed, ECB, BoE, BoC, Sweden's Riksbank, and SNB cut policy rates by 50bps in coordinated action."},
+    {"event_id":"coordinated_cut_2008","date":"2008-10-08","source":"public-record","headline":"Fed funds target lowered to 1.5%; statement cites 'weakening of economic activity'."},
+
+    {"event_id":"flash_crash_2010","date":"2010-05-06","source":"public-record","headline":"Dow Jones falls ~1000 points in minutes before recovering most of the loss; SEC and CFTC launch investigation."},
+    {"event_id":"flash_crash_2010","date":"2010-05-07","source":"public-record","headline":"Trading firms point to algorithmic feedback loops in S&P e-mini futures as proximate trigger."},
+
+    {"event_id":"greece_bailout_2010","date":"2010-05-09","source":"public-record","headline":"EU finance ministers approve €750B European Stabilization Mechanism in emergency session."},
+    {"event_id":"greece_bailout_2010","date":"2010-05-10","source":"public-record","headline":"ECB announces sovereign bond purchase program; Greek 10Y yields fall sharply at the open."},
+
+    {"event_id":"sp_us_downgrade_2011","date":"2011-08-05","source":"public-record","headline":"Standard & Poor's lowers US sovereign credit rating to AA+, citing political brinkmanship."},
+    {"event_id":"sp_us_downgrade_2011","date":"2011-08-08","source":"public-record","headline":"S&P 500 falls 6.7% on first trading day after downgrade; Treasuries paradoxically rally."},
+
+    {"event_id":"fed_rates_2013_pledge","date":"2011-08-09","source":"federalreserve.gov","headline":"FOMC adopts explicit calendar guidance: rates expected to remain near zero 'at least through mid-2013'."},
+
+    {"event_id":"taper_tantrum_2013","date":"2013-05-22","source":"federalreserve.gov","headline":"Bernanke testimony to JEC suggests asset purchases could be tapered 'in the next few meetings'."},
+    {"event_id":"taper_tantrum_2013","date":"2013-06-19","source":"public-record","headline":"10Y Treasury yields rise 100bps over 6 weeks; emerging market currencies sell off broadly."},
+
+    {"event_id":"opec_no_cut_2014","date":"2014-11-27","source":"public-record","headline":"OPEC ministers in Vienna decline to cut production; Saudi Arabia signals strategy of defending market share."},
+    {"event_id":"opec_no_cut_2014","date":"2014-12-15","source":"public-record","headline":"Brent crude breaks below $60 — first time since 2009 — as US shale supply continues to grow."},
+
+    {"event_id":"china_devaluation_2015","date":"2015-08-11","source":"public-record","headline":"PBoC resets daily yuan fixing mechanism; CNY drops 1.9% in largest one-day move in 20 years."},
+    {"event_id":"china_devaluation_2015","date":"2015-08-24","source":"public-record","headline":"Global equity selloff intensifies — 'Black Monday' — Dow opens down 1000 points."},
+
+    {"event_id":"oil_low_2016","date":"2016-01-20","source":"public-record","headline":"WTI crude trades below $27 — lowest level since May 2003 — amid global growth concerns."},
+
+    {"event_id":"brexit_referendum_2016","date":"2016-06-23","source":"public-record","headline":"UK votes 51.9%-48.1% to leave the European Union in surprise referendum result."},
+    {"event_id":"brexit_referendum_2016","date":"2016-06-24","source":"public-record","headline":"Sterling falls to 31-year low against dollar; FTSE 100 banks down 20%+."},
+
+    {"event_id":"trump_election_2016","date":"2016-11-08","source":"public-record","headline":"Donald Trump wins US presidential election in surprise outcome over Hillary Clinton."},
+    {"event_id":"trump_election_2016","date":"2016-11-09","source":"public-record","headline":"Overnight risk-off reverses sharply; banks, defense, and infrastructure lead a 1.1% S&P rally."},
+
+    {"event_id":"volmageddon_2018","date":"2018-02-05","source":"public-record","headline":"S&P 500 falls 4.1% as XIV (inverse VIX ETN) collapses 90% after-hours, triggering structural unwind."},
+
+    {"event_id":"us_china_tariffs_2018","date":"2018-03-22","source":"public-record","headline":"Trump signs presidential memorandum imposing tariffs on $50B+ of Chinese imports."},
+    {"event_id":"us_china_tariffs_2018","date":"2018-04-04","source":"public-record","headline":"China retaliates with proposed tariffs on $50B of US goods including soybeans, aircraft, and autos."},
+
+    {"event_id":"powell_q4_2018","date":"2018-12-19","source":"federalreserve.gov","headline":"FOMC raises target range 25bps to 2.25-2.50%; dot plot shows two more 2019 hikes despite weakening data."},
+    {"event_id":"powell_q4_2018","date":"2018-12-24","source":"public-record","headline":"S&P 500 falls into bear-market territory on Christmas Eve; worst December for US stocks since 1931."},
+
+    {"event_id":"trump_tariffs_aug_2019","date":"2019-08-01","source":"public-record","headline":"Trump tweets 10% tariffs on remaining $300B of Chinese imports starting September 1."},
+    {"event_id":"trump_tariffs_aug_2019","date":"2019-08-05","source":"public-record","headline":"China lets yuan break 7.0 vs USD; Treasury formally labels China a currency manipulator."},
+
+    {"event_id":"covid_crash_start_2020","date":"2020-02-24","source":"public-record","headline":"S&P 500 falls 3.4% as Italian COVID-19 outbreak escalates; Lombardy and Veneto lock down."},
+    {"event_id":"covid_crash_start_2020","date":"2020-03-09","source":"public-record","headline":"WTI crude falls 25% on Saudi-Russia price war; S&P down 7.6% triggering circuit breaker."},
+
+    {"event_id":"fed_emergency_zero_2020","date":"2020-03-15","source":"federalreserve.gov","headline":"Fed cuts target range to 0-0.25% on Sunday evening; restarts QE with $700B in planned purchases."},
+    {"event_id":"fed_emergency_zero_2020","date":"2020-03-16","source":"public-record","headline":"S&P 500 falls 12% — third-worst day in history — despite emergency Fed action."},
+
+    {"event_id":"fed_unlimited_qe_2020","date":"2020-03-23","source":"federalreserve.gov","headline":"Fed announces open-ended QE plus Primary and Secondary Market Corporate Credit Facilities."},
+    {"event_id":"fed_unlimited_qe_2020","date":"2020-03-24","source":"public-record","headline":"S&P 500 rallies 9.4% — largest single-day gain since 1933 — confirming COVID equity bottom."},
+
+    {"event_id":"gamestop_squeeze_2021","date":"2021-01-27","source":"public-record","headline":"GME closes at $347, up from ~$20 three weeks prior; multiple hedge funds report large losses."},
+    {"event_id":"gamestop_squeeze_2021","date":"2021-01-28","source":"public-record","headline":"Robinhood restricts trading in GME, AMC, and other heavily shorted names; Congressional hearings follow."},
+
+    {"event_id":"omicron_emerges_2021","date":"2021-11-26","source":"public-record","headline":"WHO names new SARS-CoV-2 variant 'Omicron'; classified as a variant of concern."},
+    {"event_id":"omicron_emerges_2021","date":"2021-11-26","source":"public-record","headline":"S&P 500 falls 2.3% on a half-day Black Friday session; oil down 13% on demand fears."},
+
+    {"event_id":"russia_invades_ukraine_2022","date":"2022-02-24","source":"public-record","headline":"Russian forces launch full-scale invasion of Ukraine across multiple fronts."},
+    {"event_id":"russia_invades_ukraine_2022","date":"2022-02-25","source":"public-record","headline":"Brent crude breaches $100 for first time since 2014; European banks down ~10%."},
+    {"event_id":"russia_invades_ukraine_2022","date":"2022-03-08","source":"public-record","headline":"WTI peaks above $130 amid US/UK Russian oil import bans."},
+
+    {"event_id":"fed_first_hike_2022","date":"2022-03-16","source":"federalreserve.gov","headline":"FOMC raises target range 25bps to 0.25-0.50% — first increase of the cycle."},
+
+    {"event_id":"uk_gilt_crisis_2022","date":"2022-09-23","source":"public-record","headline":"UK Chancellor Kwarteng announces £45B unfunded tax cuts; gilts and sterling fall sharply."},
+    {"event_id":"uk_gilt_crisis_2022","date":"2022-09-28","source":"public-record","headline":"Bank of England announces emergency long-dated gilt purchases to halt LDI-driven feedback loop."},
+
+    {"event_id":"svb_collapse_2023","date":"2023-03-10","source":"public-record","headline":"FDIC takes control of Silicon Valley Bank; second-largest US bank failure ever."},
+    {"event_id":"svb_collapse_2023","date":"2023-03-12","source":"public-record","headline":"Fed announces Bank Term Funding Program; Treasury and FDIC guarantee all SVB and Signature Bank deposits."},
+
+    {"event_id":"credit_suisse_2023","date":"2023-03-19","source":"public-record","headline":"UBS agrees to acquire Credit Suisse for CHF 3B in Swiss-government-orchestrated weekend deal."},
+    {"event_id":"credit_suisse_2023","date":"2023-03-20","source":"public-record","headline":"~$17B in Credit Suisse AT1 bonds wiped out, junior to equity — shocking AT1 credit markets globally."},
+
+    {"event_id":"fitch_us_downgrade_2023","date":"2023-08-01","source":"public-record","headline":"Fitch lowers US sovereign credit rating to AA+, citing fiscal trajectory and governance."},
+
+    {"event_id":"hamas_attack_2023","date":"2023-10-07","source":"public-record","headline":"Hamas conducts large-scale attack from Gaza into Israel; Israel declares state of war."},
+    {"event_id":"hamas_attack_2023","date":"2023-10-09","source":"public-record","headline":"Brent crude opens up 4% on Middle East war risk premium."},
+
+    {"event_id":"yen_carry_unwind_2024","date":"2024-08-05","source":"public-record","headline":"Nikkei 225 closes down 12.4% — worst day since 1987 Black Monday — as yen carry trade unwinds."},
+    {"event_id":"yen_carry_unwind_2024","date":"2024-08-05","source":"public-record","headline":"VIX spikes intraday to 65, third-highest reading on record after 2008 and 2020."},
+
+    {"event_id":"deepseek_jan_2025","date":"2025-01-27","source":"public-record","headline":"NVDA falls 17% — largest single-day market cap loss in history at ~$590B — on AI capex repricing concerns."},
+    {"event_id":"deepseek_jan_2025","date":"2025-01-27","source":"public-record","headline":"DeepSeek's R1 release reportedly trained on $5-6M GPU compute, prompting commoditization debate."}
+  ]
+}

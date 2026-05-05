@@ -1,0 +1,35 @@
+{
+  "name": "macroscope",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Macro Scenario Impact Simulator for Equity Portfolios — agentic AI + full-stack showcase",
+  "packageManager": "pnpm@10.30.0",
+  "scripts": {
+    "dev": "pnpm -r --parallel run dev",
+    "dev:web": "pnpm --filter @macroscope/web dev",
+    "dev:worker": "pnpm --filter @macroscope/worker dev",
+    "build": "pnpm -r run build",
+    "test": "pnpm -r run test",
+    "typecheck": "pnpm -r run typecheck",
+    "db:generate": "pnpm --filter @macroscope/db generate",
+    "db:migrate": "pnpm --filter @macroscope/db migrate",
+    "db:studio": "pnpm --filter @macroscope/db studio",
+    "db:seed": "pnpm --filter @macroscope/db seed",
+    "db:reactions": "pnpm --filter @macroscope/scripts pull-reactions",
+    "eval": "pnpm --filter @macroscope/evals run",
+    "eval:baseline": "pnpm --filter @macroscope/evals run -- --baseline",
+    "eval:judge": "pnpm --filter @macroscope/evals judge",
+    "infra:up": "docker compose up -d",
+    "infra:down": "docker compose down",
+    "infra:logs": "docker compose logs -f"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "typescript": "5.6.3",
+    "@types/node": "22.10.2",
+    "tsx": "4.19.2",
+    "vitest": "2.1.8"
+  }
+}

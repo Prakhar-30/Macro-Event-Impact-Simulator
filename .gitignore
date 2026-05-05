@@ -1,0 +1,43 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# build outputs
+dist/
+.next/
+out/
+build/
+*.tsbuildinfo
+
+# env
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# editor
+.vscode/
+.idea/
+.DS_Store
+
+# test
+coverage/
+.vitest/
+
+# data caches (local-only — re-fetchable)
+data/cache/
+data/raw/
+*.sqlite
+*.db
+
+# eval runs are committed; raw eval llm dumps are not
+evals/runs/raw/
+
+# os
+Thumbs.db
