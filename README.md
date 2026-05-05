@@ -8,19 +8,6 @@ This is a portfolio / resume-showcase project pairing full-stack engineering wit
 agent design. Every estimate the system produces is framed as a median of N historical analogs
 with explicit ranges. The system is intentionally honest about what it can and cannot do.
 
-## Status
-
-Milestones:
-
-| # | Milestone | Status |
-|---|-----------|--------|
-| M1 | Foundation: Next.js + auth + portfolios + live prices | in progress |
-| M2 | Curated event database + reactions seed | pending |
-| M3 | Deterministic tool layer (no LLM in loop) | pending |
-| M4 | Agent orchestration with Anthropic tool use | pending |
-| M5 | Streaming UI — report page | pending |
-| M6 | Eval harness | pending |
-| M7 | Polish + writeup docs | pending |
 
 ## Stack
 
