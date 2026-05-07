@@ -4,7 +4,7 @@
 > Describe a macro scenario in plain English. Get a portfolio-level impact estimate
 > grounded in **historical analog events** — not a forecast.
 
-This is a portfolio / resume-showcase project pairing full-stack engineering with applied LLM
+Pairing full-stack engineering with applied LLM
 agent design. Every estimate the system produces is framed as a median of N historical analogs
 with explicit ranges. The system is intentionally honest about what it can and cannot do.
 
